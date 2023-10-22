@@ -35,11 +35,11 @@ locals {
       visibility         = "private"
     }
 
-    "service" = {
-      description        = "Example product service"
-      gitignore_template = "Python"
-      name               = "service"
-      visibility         = "private"
-    }
+    # "service" = {
+    #   description        = "Example product service"
+    #   gitignore_template = "Python"
+    #   name               = "service"
+    #   visibility         = "private"
+    # }
   }
 }
