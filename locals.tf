@@ -37,7 +37,7 @@ locals {
 
     "service" = {
       description        = "Example product service"
-      gitignore_template = "Go"
+      gitignore_template = "Python"
       name               = "service"
       visibility         = "private"
     }
