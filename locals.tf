@@ -1,5 +1,11 @@
 locals {
   repos = {
+    # "tempate-repo" = {
+    #   description        = "tempate-repo"
+    #   gitignore_template = null
+    #   name               = "tempate-repo"
+    #   visibility         = "public"
+    # }
     "terraform-tfe" = {
       description        = "Automation for Terraform Cloud"
       gitignore_template = "Terraform"
@@ -39,12 +45,6 @@ locals {
       description        = "Example product service"
       gitignore_template = "Python"
       name               = "service"
-      visibility         = "public"
-    }
-    "test-repo-2" = {
-      description        = "test repo"
-      gitignore_template = null
-      name               = "test-repo"
       visibility         = "public"
     }
   }
