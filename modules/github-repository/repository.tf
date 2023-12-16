@@ -1,10 +1,10 @@
 resource "github_repository" "self" {
-  allow_auto_merge       = false
+  allow_auto_merge       = false 
   allow_merge_commit     = false
-  allow_rebase_merge     = true
-  allow_squash_merge     = true
+  allow_rebase_merge     = false ##false
+  allow_squash_merge     = false ##false
   auto_init              = true
-  delete_branch_on_merge = true
+  delete_branch_on_merge = false ##false
   description            = var.description
   gitignore_template     = var.gitignore_template
   has_discussions        = false
