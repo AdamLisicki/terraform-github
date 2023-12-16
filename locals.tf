@@ -41,11 +41,11 @@ locals {
       name               = "service"
       visibility         = "public"
     }
-    # "test-repo" = {
-    #   description        = "test repo"
-    #   gitignore_template = null
-    #   name               = "test-repo"
-    #   visibility         = "public"
-    # }
+    "test-repo-2" = {
+      description        = "test repo"
+      gitignore_template = null
+      name               = "test-repo"
+      visibility         = "public"
+    }
   }
 }
