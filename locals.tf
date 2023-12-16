@@ -45,7 +45,7 @@ locals {
       description        = "test repo"
       gitignore_template = "Shell"
       name               = "test-repo"
-      visibility         = "private"
+      visibility         = "public"
     }
   }
 }
