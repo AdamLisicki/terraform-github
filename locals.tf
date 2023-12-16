@@ -46,6 +46,6 @@ locals {
     #   gitignore_template = null
     #   name               = "test-repo"
     #   visibility         = "public"
-    }
+    # }
   }
 }
