@@ -47,5 +47,11 @@ locals {
       name               = "service"
       visibility         = "public"
     }
+    "tempate-repo" = {
+      description        = "tempate-repo"
+      gitignore_template = null
+      name               = "tempate-repo"
+      visibility         = "public"
+    }
   }
 }

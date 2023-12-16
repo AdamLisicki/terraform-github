@@ -1,3 +1,12 @@
+# terraform {
+#   cloud {
+#     organization = "praca_inzynierska"
+#     workspaces {
+#       name = "github"
+#     }
+#   }
+# }
+
 module "repository" {
   for_each = local.repos
 
