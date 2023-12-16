@@ -43,7 +43,6 @@ locals {
     }
     "test-repo" = {
       description        = "test repo"
-      gitignore_template = "Shell"
       name               = "test-repo"
       visibility         = "public"
     }
